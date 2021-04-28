@@ -43,7 +43,11 @@ library(tidyverse)
 library(readr)
 library(kableExtra)
 library(bookdown)
+<<<<<<< HEAD
 library(here)
+=======
+library(dplyr)
+>>>>>>> 5c032399941ab7d6e26a5b890285857220edc0d0
 
 ```
 
@@ -62,6 +66,14 @@ cases <- read.csv(file = "Data/worldwidecases.csv")
 
 
 \section*{Country XX3 and YY3}
+
+```{r}
+
+cases <- read.csv(file = "Data/worldwidecases.csv")
+
+# country_cases <- cases %>% filter()
+```
+
 
 
 
