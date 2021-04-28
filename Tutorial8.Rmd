@@ -43,6 +43,7 @@ library(tidyverse)
 library(readr)
 library(kableExtra)
 library(bookdown)
+library(dplyr)
 
 ```
 
@@ -58,6 +59,7 @@ library(bookdown)
 
 cases <- read.csv(file = "Data/worldwidecases.csv")
 
+country_cases <- cases %>% 
 ```
 
 
