@@ -43,13 +43,17 @@ library(tidyverse)
 library(readr)
 library(kableExtra)
 library(bookdown)
+library(here)
 
 ```
 
+```{r readdata}
+read.csv(file = "Data/worldwidecases.csv")
+```
 
 
 \section*{Country XX1 and YY1"}
-
+Phyllis is working on section 1.
 \section*{Country XX2 and YY2}
 
 \section*{Country XX3 and YY3}
