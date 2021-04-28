@@ -59,7 +59,7 @@ library(dplyr)
 
 cases <- read.csv(file = "Data/worldwidecases.csv")
 
-country_cases <- cases %>% 
+# country_cases <- cases %>% 
 ```
 
 
